@@ -1,0 +1,15 @@
+/* Oculta el div principal de Google Translate */
+#google_translate_element {
+    display: none !important;
+  }
+  
+  /* Oculta la barra de Google Translate que aparece en la parte superior */
+  .goog-te-banner-frame.skiptranslate {
+    display: none !important;
+  }
+  
+  /* Ajusta el body para evitar el espacio reservado por la barra */
+  body {
+    top: 0px !important;
+  }
+  
