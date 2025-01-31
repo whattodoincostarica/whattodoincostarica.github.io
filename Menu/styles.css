@@ -1,0 +1,188 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfcf8;
+    color: #333;
+}
+
+.menu-container {
+    margin: 0 10px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #e3e3e3;
+    background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+}
+
+header {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    font-size: 1.8em;
+    color: #4a772f;
+    margin-bottom: 5px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+header h2 {
+    font-size: 1em;
+    color: #6d6d6d;
+    font-style: italic;
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-left: 4px solid #4a772f;
+    background-color: #f9fff5;
+    border-radius: 8px;
+    position: relative;
+}
+
+section h3 {
+    font-size: 1.2em;
+    color: #4a772f;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #4a772f;
+    padding-bottom: 3px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin: 8px 0;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+}
+
+ul li span {
+    font-weight: bold;
+    color: #333;
+    margin-left: 10px;
+}
+
+ul li::before {
+    content: '\2022';
+    color: #4a772f;
+    font-size: 1.2em;
+    margin-right: 8px;
+}
+
+p {
+    margin: 8px 0;
+    font-size: 0.9em;
+}
+
+/* Contact Info */
+.contact-info {
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #e9f5e7;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #d3e4d1;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.contact-info strong {
+    color: #4a772f;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #4a772f;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+    color: #2e5a1f;
+}
+
+.contact-info a img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1.2elem;
+    color: #666;
+    border-top: 1px solid #ddd;
+    padding-top: 8px;
+    font-style: italic;
+}
+
+/* Decorative Elements */
+section::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    width: 8px;
+    height: 8px;
+    background-color: #4a772f;
+    border-radius: 50%;
+}
+
+section::after {
+    content: '';
+    position: absolute;
+    bottom: 10px;
+    left: -10px;
+    width: 8px;
+    height: 8px;
+    background-color: #4a772f;
+    border-radius: 50%;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    header h2 {
+        font-size: 0.9em;
+    }
+
+    section h3 {
+        font-size: 1em;
+    }
+
+    ul li {
+        font-size: 0.9em;
+    }
+
+    .contact-info p {
+        font-size: 0.9em;
+    }
+
+    .footer {
+        font-size: 0.9em;
+    }
+}
