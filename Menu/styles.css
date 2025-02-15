@@ -160,6 +160,43 @@ section::after {
     border-radius: 50%;
 }
 
+.karaoke-event {
+    background: linear-gradient(135deg, #ffcc33, #ff6699);
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.karaoke-event h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.karaoke-event p {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+.center-text {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.karaoke-event a {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.karaoke-event a:hover {
+    color: #ffdd33;
+}
+
 /* Responsive Design for Mobile */
 @media (max-width: 600px) {
     header h1 {
