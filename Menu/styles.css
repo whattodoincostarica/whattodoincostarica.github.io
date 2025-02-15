@@ -161,7 +161,7 @@ section::after {
 }
 
 .karaoke-event {
-    background: linear-gradient(135deg, #808000, #87CEEB); /* Verde Olivo a Celeste */
+    background: linear-gradient(135deg, #808000, #00bfff);
     padding: 15px;
     margin-top: 20px;
     border-radius: 10px;
