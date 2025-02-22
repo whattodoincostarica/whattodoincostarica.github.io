@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #5f9ea0;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 1.2rem;
+}
+
+.itinerary-container {
+    padding: 20px;
+    flex: 1; /* Hace que el contenido principal ocupe el espacio disponible */
+}
+
+.day {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.day h2 {
+    color: #5f9ea0;
+    font-size: 24px;
+    margin-top: 0;
+    border-bottom: 2px solid #5f9ea0;
+    padding-bottom: 10px;
+}
+
+.event {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.event p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.event .time {
+    font-weight: bold;
+    color: #007b7f;
+    min-width: 80px; /* Asegura que el tiempo tenga un ancho fijo */
+}
+
+.event .activity {
+    font-style: italic;
+    margin-left: 20px;
+    flex: 1; /* Hace que la actividad ocupe el espacio restante */
+}
+
+.event a {
+    color: #25D366;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.event a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+    bottom: 0;
+}
+
+.whatsapp-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #25D366;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.whatsapp-logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    .event {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .event .time {
+        margin-bottom: 5px;
+    }
+
+    .event .activity {
+        margin-left: 0;
+    }
+
+    .event a {
+        margin-left: 0;
+        margin-top: 5px;
+    }
+}
