@@ -1488,6 +1488,8 @@ button {
   position: relative; }
   .single-features-item .img-holder img {
     width: 100%;
+    max-height: 400px;
+    object-fit: cover;
     border-radius: 7px; }
   .single-features-item .img-holder .content {
     position: absolute;
